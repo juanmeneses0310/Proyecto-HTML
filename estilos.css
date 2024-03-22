@@ -1,3 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+header {
+  position: relative;
+  height: 30px;
+}
+.principal {
+  position: relative;
+  margin: 100px;
+}
+body {
+  margin: 0px;
+  background-color: #780000;
+}
+h1 {
+  font-family: "Carattere", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #fdf0d5;
+  margin: 10px;
+}
+h2 {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border: 3px solid #003049;
+  background-color: #fdf0d5;
+  display: inline;
+  color: #003049;
+  margin: 10px;
+}
 p {
-  color: blue;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border: 3px solid #003049;
+  margin: 10px;
+  background-color: #fdf0d5;
+  display: inline-block;
+  margin: 10px;
+  text-align: justify;
+  color: #003049;
 }
